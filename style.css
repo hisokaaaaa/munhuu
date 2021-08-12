@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background: black;
+    height: 50px;
+    width: 100%;
+    color: blanchedalmond;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item {
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #fff;
+}
+.item:hover {
+    color: coral;
+    cursor: pointer;
+}
+.header:hover {
+    background: gray;
+}
+.boxes{
+    background: violet;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    position: relative;
+}
+.box {
+    width: 50px;
+    height: 50px;
+    background: skyblue;
+}
+.one {
+    background: red;
+    position: fixed;
+    left: 150px;
+}
+.two {
+    background: yellow;
+    position: sticky;
+}
+.three {
+    background: yellowgreen;
+}
+.four {
+    background: wheat;
+    position: absolute;
+    bottom: 0;
+    right: 200;
+}
